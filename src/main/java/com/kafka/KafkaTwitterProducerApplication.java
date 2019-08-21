@@ -88,10 +88,10 @@ public class KafkaTwitterProducerApplication implements CommandLineRunner {
 		logger.info("ended--------");
 	}
 
-	private String consumerKey = "cvkJYSgjmLsWnRki8ZrcIqIMq";
-	private String consumerSecret = "PxkhRksyJRmPxm9MuncTovrrFynJ0GJY4d8btvBipyCiA3FEnN";
-	private String token = "1159409955536982016-E1LnEyRNaNrW59QSz8rPyteZ6Q9iWs";
-	private String secret = "8oTLQ6IvCIiL6bLXtkbglGjb0j7gZGu0QmE9YaxY1C0Qn";
+	private String consumerKey = "sgsggsgs";
+	private String consumerSecret = "sgsggsgs";
+	private String token = "sgsggsgs";
+	private String secret = "sgsggsgs";
 	private List<String> terms = Lists.newArrayList("modi");
 
 	public Client createTwitterClient(BlockingQueue<String> msgQueue, BlockingQueue<Event> eventQueue) {
